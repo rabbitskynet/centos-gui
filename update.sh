@@ -43,5 +43,5 @@ else
 	echo $scr_name >> $local
 	chmod +x $local
 	echo "reboot"
-	reboot
 fi;
+reboot
