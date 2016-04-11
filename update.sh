@@ -10,7 +10,7 @@
 # 09. Переходим каталог с диском
 # 10. нужно найти каталог с ядром в /usr/src/kernels/ и сделать export KERN_DIR=/usr/src/kernels/3.10.0-327.13.1.el7.x86_64/
 # 11. sudo ./VBoxLinuxAdditions.run
-# 12. systemctl get-default graphical.target
+# 12. systemctl set-default graphical.target
 # 13. sudo reboot
 
 scr_name=$(realpath -s $0)
